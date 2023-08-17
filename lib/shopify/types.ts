@@ -29,6 +29,8 @@ export type Image = {
 export type Product = {
   variants: ProductVariant[];
   images: Image[];
+  handle: string;
+  title: string;
 };
 
 export type CartItem = {
